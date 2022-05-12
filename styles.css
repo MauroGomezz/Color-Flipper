@@ -17,10 +17,12 @@ a {
 }
 
 ul li button{
+    letter-spacing: 2px;
     height: 3rem;
 }
 
 nav {
+    font-size: 18px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     background: #FFFFFF;
     height: 3rem;
@@ -37,6 +39,7 @@ span {
 }
 
 h2 {
+    letter-spacing: 2px;
     font-weight: bold;
     color: #FFFFFF;
     padding: 1rem;
@@ -70,4 +73,11 @@ h2 {
     color: #FFFFFF;
     background: #000000;
   }
-  
+
+@media (max-width: 400px) {
+    .nav {
+        overflow: hidden;
+        font-size: 17px;
+        flex-wrap: nowrap;
+    }
+}
