@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+}
+
+ul li button{
+    height: 3rem;
+}
+
+nav {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    height: 3rem;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh - 3rem);
+}
+
+span {
+    color: #5969fa;
+}
+
+h2 {
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-size: 2.5rem;
+    background-color: #000000;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.btn-hero {
+    text-transform: uppercase;
+    background: transparent;
+    color: #000000;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid #000000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+  .btn-hero:hover {
+    color: #FFFFFF;
+    background: #000000;
+  }
+  
